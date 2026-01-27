@@ -1,11 +1,11 @@
 {
   "name": "tari-docs",
-  "version": "0.14.4",
+  "version": "0.14.6",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "node init && docusaurus start",
+    "build": "node init && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
