@@ -1,6 +1,6 @@
 {
   "name": "@tari-project/tarijs-builders",
-  "version": "0.14.5",
+  "version": "0.14.6",
   "description": "",
   "type": "module",
   "homepage": "https://github.com/tari-project/tari.js#readme",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -b",
+    "build": "node init && tsc -b",
     "lint": "eslint src/"
   },
   "keywords": [],
