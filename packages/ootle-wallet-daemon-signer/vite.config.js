@@ -1,6 +1,9 @@
 import wasm from "vite-plugin-wasm";
 import topLevelAwait from "vite-plugin-top-level-await";
 import dts from "unplugin-dts/vite";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 /** @type {import('vite').UserConfig} */
 export default {
