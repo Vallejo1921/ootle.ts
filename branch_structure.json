@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ci-fixes",
+    "fix/cbor-literal-template-address-untagged",
+    "main",
+    "origin",
+    "package.json-config",
+    "tari.js-backup",
+    "tx-builder-fixes",
+    "walletd-auth"
+  ],
+  "parent": {
+    "ci-fixes": "main",
+    "fix/cbor-literal-template-address-untagged": "main",
+    "main": null,
+    "origin": "main",
+    "package.json-config": "main",
+    "tari.js-backup": "main",
+    "tx-builder-fixes": "main",
+    "walletd-auth": "main"
+  },
+  "order": [
+    "main",
+    "ci-fixes",
+    "fix/cbor-literal-template-address-untagged",
+    "origin",
+    "package.json-config",
+    "tari.js-backup",
+    "tx-builder-fixes",
+    "walletd-auth"
+  ]
+}
