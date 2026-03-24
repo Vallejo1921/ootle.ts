@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "node init && tsc -b && vite build",
     "test": "vitest run"
   },
   "dependencies": {
