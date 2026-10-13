@@ -15,7 +15,6 @@ dist
 # misc
 .DS_Store
 temp/
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -33,5 +32,8 @@ docs/src/content/docs/api/
 
 # Editor directories and files
 .idea/
-.vscode
 *.tsbuildinfo
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
